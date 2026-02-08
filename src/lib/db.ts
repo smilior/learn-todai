@@ -2,21 +2,18 @@ import { drizzle } from "drizzle-orm/libsql";
 import { createClient } from "@libsql/client";
 import * as schema from "@/db/schema";
 
-let _db: ReturnType<typeof drizzle<typeof schema>> | null = null;
+const client = process.env.DATABASE_URL
+  ? createClient({
+      url: process.env.DATABASE_URL,
+      authToken: process.env.DATABASE_AUTH_TOKEN,
+    })
+  : null;
+
+export const db = client ? drizzle(client, { schema }) : null;
 
 export function getDb() {
-  if (!_db) {
-    const client = createClient({
-      url: process.env.DATABASE_URL!,
-      authToken: process.env.DATABASE_AUTH_TOKEN,
-    });
-    _db = drizzle(client, { schema });
+  if (!db) {
+    throw new Error("Database not initialized. Check DATABASE_URL.");
   }
-  return _db;
+  return db;
 }
-
-export const db = new Proxy({} as ReturnType<typeof drizzle<typeof schema>>, {
-  get(_target, prop) {
-    return (getDb() as unknown as Record<string | symbol, unknown>)[prop];
-  },
-});

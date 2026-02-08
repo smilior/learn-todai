@@ -1,42 +1,13 @@
 "use client";
 
-import { useState } from "react";
+import { signIn } from "@/lib/auth-client";
 
 export default function SignInPage() {
-  const [loading, setLoading] = useState(false);
-
   const handleGoogleSignIn = async () => {
-    setLoading(true);
-    try {
-      const baseURL =
-        process.env.NEXT_PUBLIC_BETTER_AUTH_URL ?? "http://localhost:3000";
-      const res = await fetch(`${baseURL}/api/auth/sign-in/social`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          provider: "google",
-          callbackURL: "/dashboard",
-        }),
-        redirect: "manual",
-      });
-
-      // Better Auth returns location header with Google URL
-      const location = res.headers.get("location");
-      if (location) {
-        window.location.href = location;
-        return;
-      }
-
-      // Fallback: parse JSON body for url
-      const data = await res.json();
-      if (data?.url) {
-        window.location.href = data.url;
-        return;
-      }
-    } catch {
-      // ignore
-    }
-    setLoading(false);
+    await signIn.social({
+      provider: "google",
+      callbackURL: "/dashboard",
+    });
   };
 
   return (
@@ -50,8 +21,7 @@ export default function SignInPage() {
         </div>
         <button
           onClick={handleGoogleSignIn}
-          disabled={loading}
-          className="w-full rounded-lg border border-zinc-300 bg-white px-4 py-3 text-sm font-medium text-zinc-700 hover:bg-zinc-50 flex items-center justify-center gap-3 cursor-pointer disabled:opacity-50 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-200 dark:hover:bg-zinc-700"
+          className="w-full rounded-lg border border-zinc-300 bg-white px-4 py-3 text-sm font-medium text-zinc-700 hover:bg-zinc-50 flex items-center justify-center gap-3 cursor-pointer dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-200 dark:hover:bg-zinc-700"
         >
           <svg className="h-5 w-5" viewBox="0 0 24 24">
             <path
@@ -71,7 +41,7 @@ export default function SignInPage() {
               fill="#EA4335"
             />
           </svg>
-          {loading ? "リダイレクト中..." : "Googleでログイン"}
+          Googleでログイン
         </button>
       </div>
     </div>

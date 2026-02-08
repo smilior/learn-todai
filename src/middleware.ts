@@ -1,15 +1,26 @@
-import { NextRequest, NextResponse } from "next/server";
+import { NextResponse } from "next/server";
+import type { NextRequest } from "next/server";
+
+const protectedRoutes = ["/dashboard"];
+const publicRoutes = ["/", "/sign-in"];
 
 export function middleware(request: NextRequest) {
-  const sessionCookie = request.cookies.get("better-auth.session_token");
-  const isAuthPage = request.nextUrl.pathname.startsWith("/sign-");
-  const isProtectedPage = request.nextUrl.pathname.startsWith("/dashboard");
+  const { pathname } = request.nextUrl;
 
-  if (isProtectedPage && !sessionCookie) {
+  const isProtectedRoute = protectedRoutes.some((route) =>
+    pathname.startsWith(route)
+  );
+
+  // Get session token from cookies (HTTPS uses __Secure- prefix)
+  const sessionToken =
+    request.cookies.get("better-auth.session_token")?.value ||
+    request.cookies.get("__Secure-better-auth.session_token")?.value;
+
+  if (isProtectedRoute && !sessionToken) {
     return NextResponse.redirect(new URL("/sign-in", request.url));
   }
 
-  if (isAuthPage && sessionCookie) {
+  if (pathname === "/sign-in" && sessionToken) {
     return NextResponse.redirect(new URL("/dashboard", request.url));
   }
 
@@ -17,5 +28,5 @@ export function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/dashboard/:path*", "/sign-in", "/sign-up"],
+  matcher: ["/((?!api|_next/static|_next/image|favicon.ico|.*\\..*).*)"],
 };
