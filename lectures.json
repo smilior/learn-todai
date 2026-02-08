@@ -1,0 +1,838 @@
+{
+  "courses": [
+    {
+      "course": "統計データ解析 I",
+      "course_url": "https://ocw.u-tokyo.ac.jp/course_11480/",
+      "phase": 1,
+      "instructor": "小池 祐太",
+      "total_lectures": 113,
+      "chapters": [
+        {
+          "chapter": 1,
+          "title": "統計ソフトウェアR 入門",
+          "lectures": [
+            { "id": "1-1", "title": "講義の概要", "url": "https://ocw.u-tokyo.ac.jp/lecture_3437/" },
+            { "id": "1-2", "title": "講義計画", "url": "https://ocw.u-tokyo.ac.jp/lecture_3438/" },
+            { "id": "1-3", "title": "R言語とは", "url": "https://ocw.u-tokyo.ac.jp/lecture_3439/" },
+            { "id": "1-4", "title": "起動と終了", "url": "https://ocw.u-tokyo.ac.jp/lecture_3440/" },
+            { "id": "1-5", "title": "エディタの使い方", "url": "https://ocw.u-tokyo.ac.jp/lecture_3441/" },
+            { "id": "1-6", "title": "Rの基本操作", "url": "https://ocw.u-tokyo.ac.jp/lecture_3442/" },
+            { "id": "1-7", "title": "演習1", "url": "https://ocw.u-tokyo.ac.jp/lecture_3443/" },
+            { "id": "1-8", "title": "Rにおける関数", "url": "https://ocw.u-tokyo.ac.jp/lecture_3444/" },
+            { "id": "1-9", "title": "演習2", "url": "https://ocw.u-tokyo.ac.jp/lecture_3445/" },
+            { "id": "1-10", "title": "数の扱い", "url": "https://ocw.u-tokyo.ac.jp/lecture_3446/" },
+            { "id": "1-11", "title": "変数への代入", "url": "https://ocw.u-tokyo.ac.jp/lecture_3447/" }
+          ]
+        },
+        {
+          "chapter": 2,
+          "title": "パッケージのインストール・データ構造",
+          "lectures": [
+            { "id": "2-1", "title": "パッケージのインストール", "url": "https://ocw.u-tokyo.ac.jp/lecture_3450/" },
+            { "id": "2-2", "title": "データ構造：ベクトル①", "url": "https://ocw.u-tokyo.ac.jp/lecture_3451/" },
+            { "id": "2-3", "title": "データ構造：ベクトル②", "url": "https://ocw.u-tokyo.ac.jp/lecture_3452/" },
+            { "id": "2-4", "title": "データ構造：行列", "url": "https://ocw.u-tokyo.ac.jp/lecture_3453/" },
+            { "id": "2-5", "title": "データ構造：リスト", "url": "https://ocw.u-tokyo.ac.jp/lecture_3454/" },
+            { "id": "2-6", "title": "データ構造：データフレーム", "url": "https://ocw.u-tokyo.ac.jp/lecture_3455/" },
+            { "id": "2-7", "title": "ベクトルの計算", "url": "https://ocw.u-tokyo.ac.jp/lecture_3456/" },
+            { "id": "2-8", "title": "行列とその演算", "url": "https://ocw.u-tokyo.ac.jp/lecture_3457/" }
+          ]
+        },
+        {
+          "chapter": 3,
+          "title": "ベクトルと行列の計算",
+          "lectures": [
+            { "id": "3-1", "title": "逆行列", "url": "https://ocw.u-tokyo.ac.jp/lecture_3460/" },
+            { "id": "3-2", "title": "ベクトルと行列の演算", "url": "https://ocw.u-tokyo.ac.jp/lecture_3461/" },
+            { "id": "3-3", "title": "演習3-1", "url": "https://ocw.u-tokyo.ac.jp/lecture_3462/" },
+            { "id": "3-4", "title": "自作関数", "url": "https://ocw.u-tokyo.ac.jp/lecture_3463/" },
+            { "id": "3-5", "title": "演習3-2", "url": "https://ocw.u-tokyo.ac.jp/lecture_3464/" },
+            { "id": "3-6", "title": "制御文", "url": "https://ocw.u-tokyo.ac.jp/lecture_3465/" },
+            { "id": "3-7", "title": "演習3-3,4,5", "url": "https://ocw.u-tokyo.ac.jp/lecture_3466/" },
+            { "id": "3-8", "title": "データの抽出", "url": "https://ocw.u-tokyo.ac.jp/lecture_3467/" },
+            { "id": "3-9", "title": "データフレーム", "url": "https://ocw.u-tokyo.ac.jp/lecture_3468/" },
+            { "id": "3-10", "title": "演習3-6", "url": "https://ocw.u-tokyo.ac.jp/lecture_3469/" },
+            { "id": "3-11", "title": "作業ディレクトリの確認と変更", "url": "https://ocw.u-tokyo.ac.jp/lecture_3470/" }
+          ]
+        },
+        {
+          "chapter": 4,
+          "title": "ファイルを用いたデータの読み書き",
+          "lectures": [
+            { "id": "4-1", "title": "作業ディレクトリについて", "url": "https://ocw.u-tokyo.ac.jp/lecture_3474/" },
+            { "id": "4-2", "title": "データの書き出し", "url": "https://ocw.u-tokyo.ac.jp/lecture_3475/" },
+            { "id": "4-3", "title": "データの読み込み", "url": "https://ocw.u-tokyo.ac.jp/lecture_3476/" },
+            { "id": "4-4", "title": "データの整理", "url": "https://ocw.u-tokyo.ac.jp/lecture_3477/" },
+            { "id": "4-5", "title": "演習4-1", "url": "https://ocw.u-tokyo.ac.jp/lecture_3478/" },
+            { "id": "4-6", "title": "データのプロット", "url": "https://ocw.u-tokyo.ac.jp/lecture_3479/" },
+            { "id": "4-7", "title": "演習4-2", "url": "https://ocw.u-tokyo.ac.jp/lecture_3480/" },
+            { "id": "4-8", "title": "プロットに対する凡例の付け方", "url": "https://ocw.u-tokyo.ac.jp/lecture_3481/" }
+          ]
+        },
+        {
+          "chapter": 5,
+          "title": "基本的な描画",
+          "lectures": [
+            { "id": "5-1", "title": "日本語を含む図の描画", "url": "https://ocw.u-tokyo.ac.jp/lecture_3484/" },
+            { "id": "5-2", "title": "図の保存", "url": "https://ocw.u-tokyo.ac.jp/lecture_3485/" },
+            { "id": "5-3", "title": "ヒストグラム", "url": "https://ocw.u-tokyo.ac.jp/lecture_3486/" },
+            { "id": "5-4", "title": "演習5-1", "url": "https://ocw.u-tokyo.ac.jp/lecture_3487/" },
+            { "id": "5-5", "title": "箱ひげ図", "url": "https://ocw.u-tokyo.ac.jp/lecture_3488/" },
+            { "id": "5-6", "title": "演習5-2", "url": "https://ocw.u-tokyo.ac.jp/lecture_3489/" },
+            { "id": "5-7", "title": "棒グラフ", "url": "https://ocw.u-tokyo.ac.jp/lecture_3490/" },
+            { "id": "5-8", "title": "演習5-3", "url": "https://ocw.u-tokyo.ac.jp/lecture_3491/" },
+            { "id": "5-9", "title": "円グラフ", "url": "https://ocw.u-tokyo.ac.jp/lecture_3492/" },
+            { "id": "5-10", "title": "散布図行列", "url": "https://ocw.u-tokyo.ac.jp/lecture_3493/" },
+            { "id": "5-11", "title": "三次元のグラフ", "url": "https://ocw.u-tokyo.ac.jp/lecture_3494/" }
+          ]
+        },
+        {
+          "chapter": 6,
+          "title": "データのプロット",
+          "lectures": [
+            { "id": "6-1", "title": "データのプロット", "url": "https://ocw.u-tokyo.ac.jp/lecture_3496/" },
+            { "id": "6-2", "title": "シミュレーションと極限定理", "url": "https://ocw.u-tokyo.ac.jp/lecture_3497/" },
+            { "id": "6-3", "title": "乱数", "url": "https://ocw.u-tokyo.ac.jp/lecture_3498/" },
+            { "id": "6-4", "title": "確率変数", "url": "https://ocw.u-tokyo.ac.jp/lecture_3499/" },
+            { "id": "6-5", "title": "独立性と同分布性", "url": "https://ocw.u-tokyo.ac.jp/lecture_3500/" },
+            { "id": "6-6", "title": "大数の法則 1", "url": "https://ocw.u-tokyo.ac.jp/lecture_3501/" },
+            { "id": "6-7", "title": "大数の法則 2", "url": "https://ocw.u-tokyo.ac.jp/lecture_3502/" },
+            { "id": "6-8", "title": "中心極限定理", "url": "https://ocw.u-tokyo.ac.jp/lecture_3503/" }
+          ]
+        },
+        {
+          "chapter": 7,
+          "title": "中心極限定理",
+          "lectures": [
+            { "id": "7-1", "title": "中心極限定理（つづき）", "url": "https://ocw.u-tokyo.ac.jp/lecture_3506/" },
+            { "id": "7-2", "title": "中心極限定理のシミュレーションによる確認", "url": "https://ocw.u-tokyo.ac.jp/lecture_3507/" },
+            { "id": "7-3", "title": "重複対数の法則", "url": "https://ocw.u-tokyo.ac.jp/lecture_3508/" },
+            { "id": "7-4", "title": "少数の法則", "url": "https://ocw.u-tokyo.ac.jp/lecture_3509/" },
+            { "id": "7-5", "title": "確率分布", "url": "https://ocw.u-tokyo.ac.jp/lecture_3510/" },
+            { "id": "7-6", "title": "離散分布", "url": "https://ocw.u-tokyo.ac.jp/lecture_3511/" },
+            { "id": "7-7", "title": "離散一様分布", "url": "https://ocw.u-tokyo.ac.jp/lecture_3512/" }
+          ]
+        },
+        {
+          "chapter": 8,
+          "title": "確率分布",
+          "lectures": [
+            { "id": "8-1", "title": "確率分布（つづき）", "url": "https://ocw.u-tokyo.ac.jp/lecture_3515/" },
+            { "id": "8-2", "title": "離散分布とは", "url": "https://ocw.u-tokyo.ac.jp/lecture_3516/" },
+            { "id": "8-3", "title": "二項分布", "url": "https://ocw.u-tokyo.ac.jp/lecture_3517/" },
+            { "id": "8-4", "title": "Poisson分布", "url": "https://ocw.u-tokyo.ac.jp/lecture_3518/" },
+            { "id": "8-5", "title": "幾何分布", "url": "https://ocw.u-tokyo.ac.jp/lecture_3519/" },
+            { "id": "8-6", "title": "連続分布とは", "url": "https://ocw.u-tokyo.ac.jp/lecture_3520/" },
+            { "id": "8-7", "title": "一様分布", "url": "https://ocw.u-tokyo.ac.jp/lecture_3521/" },
+            { "id": "8-8", "title": "正規分布", "url": "https://ocw.u-tokyo.ac.jp/lecture_3522/" },
+            { "id": "8-9", "title": "ガンマ分布", "url": "https://ocw.u-tokyo.ac.jp/lecture_3523/" }
+          ]
+        },
+        {
+          "chapter": 9,
+          "title": "確率分布・基礎的な記述統計量とデータの集約",
+          "lectures": [
+            { "id": "9-1", "title": "連続分布（つづき）", "url": "https://ocw.u-tokyo.ac.jp/lecture_3526/" },
+            { "id": "9-2", "title": "ガンマ分布（つづき）", "url": "https://ocw.u-tokyo.ac.jp/lecture_3527/" },
+            { "id": "9-3", "title": "χ²分布", "url": "https://ocw.u-tokyo.ac.jp/lecture_3528/" },
+            { "id": "9-4", "title": "t分布", "url": "https://ocw.u-tokyo.ac.jp/lecture_3529/" },
+            { "id": "9-5", "title": "F分布", "url": "https://ocw.u-tokyo.ac.jp/lecture_3530/" },
+            { "id": "9-6", "title": "モーメントに基づく統計量 1", "url": "https://ocw.u-tokyo.ac.jp/lecture_3531/" },
+            { "id": "9-7", "title": "モーメントに基づく統計量 2", "url": "https://ocw.u-tokyo.ac.jp/lecture_3532/" },
+            { "id": "9-8", "title": "歪度と尖度 1", "url": "https://ocw.u-tokyo.ac.jp/lecture_3533/" },
+            { "id": "9-9", "title": "歪度と尖度 2", "url": "https://ocw.u-tokyo.ac.jp/lecture_3534/" }
+          ]
+        },
+        {
+          "chapter": 10,
+          "title": "基礎的な記述統計量とデータの集約",
+          "lectures": [
+            { "id": "10-1", "title": "相関と共分散", "url": "https://ocw.u-tokyo.ac.jp/lecture_3537/" },
+            { "id": "10-2", "title": "メディアン・分位点 1", "url": "https://ocw.u-tokyo.ac.jp/lecture_3538/" },
+            { "id": "10-3", "title": "メディアン・分位点 2", "url": "https://ocw.u-tokyo.ac.jp/lecture_3539/" },
+            { "id": "10-4", "title": "ばらつきの指標", "url": "https://ocw.u-tokyo.ac.jp/lecture_3540/" },
+            { "id": "10-5", "title": "頻度に基づく統計量", "url": "https://ocw.u-tokyo.ac.jp/lecture_3541/" },
+            { "id": "10-6", "title": "推定とは", "url": "https://ocw.u-tokyo.ac.jp/lecture_3542/" },
+            { "id": "10-7", "title": "点推定", "url": "https://ocw.u-tokyo.ac.jp/lecture_3543/" },
+            { "id": "10-8", "title": "推定量の良さの評価 1", "url": "https://ocw.u-tokyo.ac.jp/lecture_3544/" },
+            { "id": "10-9", "title": "推定量の良さの評価 2", "url": "https://ocw.u-tokyo.ac.jp/lecture_3545/" },
+            { "id": "10-10", "title": "最尤法（離散分布）", "url": "https://ocw.u-tokyo.ac.jp/lecture_3546/" },
+            { "id": "10-11", "title": "最尤法（連続分布）", "url": "https://ocw.u-tokyo.ac.jp/lecture_3547/" }
+          ]
+        },
+        {
+          "chapter": 11,
+          "title": "推定・検定",
+          "lectures": [
+            { "id": "11-1", "title": "推定", "url": "https://ocw.u-tokyo.ac.jp/lecture_3551/" },
+            { "id": "11-2", "title": "区間推定", "url": "https://ocw.u-tokyo.ac.jp/lecture_3552/" },
+            { "id": "11-3", "title": "正規母集団の場合の区間推定：平均(σ既知)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3553/" },
+            { "id": "11-4", "title": "正規母集団の場合の区間推定：平均(σ既知) 実行例", "url": "https://ocw.u-tokyo.ac.jp/lecture_3554/" },
+            { "id": "11-5", "title": "正規母集団の場合の区間推定：平均(σ未知)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3555/" },
+            { "id": "11-6", "title": "正規母集団の場合の区間推定：分散", "url": "https://ocw.u-tokyo.ac.jp/lecture_3556/" },
+            { "id": "11-7", "title": "漸近正規性による区間推定", "url": "https://ocw.u-tokyo.ac.jp/lecture_3557/" },
+            { "id": "11-8", "title": "検定 1", "url": "https://ocw.u-tokyo.ac.jp/lecture_3558/" },
+            { "id": "11-9", "title": "検定 2", "url": "https://ocw.u-tokyo.ac.jp/lecture_3559/" }
+          ]
+        },
+        {
+          "chapter": 12,
+          "title": "検定・分散分析",
+          "lectures": [
+            { "id": "12-1", "title": "検定とは（前回の復習）1", "url": "https://ocw.u-tokyo.ac.jp/lecture_3562/" },
+            { "id": "12-2", "title": "検定とは（前回の復習）2", "url": "https://ocw.u-tokyo.ac.jp/lecture_3563/" },
+            { "id": "12-3", "title": "平均の検定（1標本）1", "url": "https://ocw.u-tokyo.ac.jp/lecture_3564/" },
+            { "id": "12-4", "title": "平均の検定（1標本）2", "url": "https://ocw.u-tokyo.ac.jp/lecture_3565/" },
+            { "id": "12-5", "title": "平均の検定（1標本）: 棄却域の取り方", "url": "https://ocw.u-tokyo.ac.jp/lecture_3566/" },
+            { "id": "12-6", "title": "分散の検定（1標本）", "url": "https://ocw.u-tokyo.ac.jp/lecture_3567/" },
+            { "id": "12-7", "title": "平均の差の検定（2標本）1", "url": "https://ocw.u-tokyo.ac.jp/lecture_3568/" },
+            { "id": "12-8", "title": "平均の差の検定（2標本）2", "url": "https://ocw.u-tokyo.ac.jp/lecture_3569/" },
+            { "id": "12-9", "title": "分散の比の検定（2標本）", "url": "https://ocw.u-tokyo.ac.jp/lecture_3570/" }
+          ]
+        },
+        {
+          "chapter": 13,
+          "title": "分散分析・回帰分析",
+          "lectures": [
+            { "id": "13-1", "title": "分散分析", "url": "https://ocw.u-tokyo.ac.jp/lecture_3573/" },
+            { "id": "13-2", "title": "一元配置 1", "url": "https://ocw.u-tokyo.ac.jp/lecture_3574/" },
+            { "id": "13-3", "title": "一元配置 2", "url": "https://ocw.u-tokyo.ac.jp/lecture_3575/" },
+            { "id": "13-4", "title": "Rによる一元配置の実行", "url": "https://ocw.u-tokyo.ac.jp/lecture_3576/" },
+            { "id": "13-5", "title": "二元配置", "url": "https://ocw.u-tokyo.ac.jp/lecture_3577/" },
+            { "id": "13-6", "title": "Rによる二元配置の実行", "url": "https://ocw.u-tokyo.ac.jp/lecture_3578/" },
+            { "id": "13-7", "title": "回帰分析", "url": "https://ocw.u-tokyo.ac.jp/lecture_3579/" }
+          ]
+        }
+      ]
+    },
+    {
+      "course": "物質の科学 ‐その起源から応用まで（学術俯瞰講義）",
+      "course_url": "https://ocw.u-tokyo.ac.jp/course_11251/",
+      "phase": 1,
+      "instructors": ["小柴 昌俊", "佐藤 勝彦", "家 泰弘", "小宮山 宏"],
+      "total_lectures": 13,
+      "chapters": [
+        {
+          "chapter": 1,
+          "title": "物質はどのように創られたのか",
+          "lectures": [
+            { "id": "1-1", "title": "素粒子と宇宙", "instructor": "小柴 昌俊", "url": "https://ocw.u-tokyo.ac.jp/lecture_2/" }
+          ]
+        },
+        {
+          "chapter": 2,
+          "title": "物質の生い立ち －素粒子、原子、宇宙－",
+          "lectures": [
+            { "id": "2-1", "title": "私たちは物質世界をどのように認識してきたか－物質の階層構造－", "instructor": "佐藤 勝彦", "url": "https://ocw.u-tokyo.ac.jp/lecture_3/" },
+            { "id": "2-2", "title": "物質世界はどのように運動するのか－物理法則－", "instructor": "佐藤 勝彦", "url": "https://ocw.u-tokyo.ac.jp/lecture_4/" },
+            { "id": "2-3", "title": "時空－物質の演舞の舞台－", "instructor": "佐藤 勝彦", "url": "https://ocw.u-tokyo.ac.jp/lecture_5/" },
+            { "id": "2-4", "title": "宇宙の創生、進化－統一的自然観をめざして－", "instructor": "佐藤 勝彦", "url": "https://ocw.u-tokyo.ac.jp/lecture_6/" }
+          ]
+        },
+        {
+          "chapter": 3,
+          "title": "物質の性質",
+          "lectures": [
+            { "id": "3-1", "title": "物性物理学とは何をする学問か", "instructor": "家 泰弘", "url": "https://ocw.u-tokyo.ac.jp/lecture_7/" },
+            { "id": "3-2", "title": "量子力学と人工構造物質－ハイテクと先端物理－", "instructor": "家 泰弘", "url": "https://ocw.u-tokyo.ac.jp/lecture_8/" },
+            { "id": "3-3", "title": "原子を操る・量子を操る－ナノサイエンスと量子情報－", "instructor": "家 泰弘", "url": "https://ocw.u-tokyo.ac.jp/lecture_9/" },
+            { "id": "3-4", "title": "多様な物質・多様な物性", "instructor": "家 泰弘", "url": "https://ocw.u-tokyo.ac.jp/lecture_10/" }
+          ]
+        },
+        {
+          "chapter": 4,
+          "title": "物質を作り使う",
+          "lectures": [
+            { "id": "4-1", "title": "物性－プロセス－応用 「金属」", "instructor": "小宮山 宏", "url": "https://ocw.u-tokyo.ac.jp/lecture_11/" },
+            { "id": "4-2", "title": "物性－プロセス－応用 「半導体」", "instructor": "小宮山 宏", "url": "https://ocw.u-tokyo.ac.jp/lecture_12/" },
+            { "id": "4-3", "title": "物性－プロセス－応用 「ソフトマター」", "instructor": "小宮山 宏", "url": "https://ocw.u-tokyo.ac.jp/lecture_13/" },
+            { "id": "4-4", "title": "地球環境を維持するためのプロセスと応用", "instructor": "小宮山 宏", "url": "https://ocw.u-tokyo.ac.jp/lecture_14/" }
+          ]
+        }
+      ]
+    },
+    {
+      "course": "データマイニング入門",
+      "course_url": "https://ocw.u-tokyo.ac.jp/course_11483/",
+      "phase": 2,
+      "instructor": "森 純一郎",
+      "total_lectures": 107,
+      "chapters": [
+        {
+          "chapter": 1,
+          "title": "イントロダクション",
+          "lectures": [
+            { "id": "1-1", "title": "講義概要", "url": "https://ocw.u-tokyo.ac.jp/lecture_3871/" },
+            { "id": "1-2", "title": "Python", "url": "https://ocw.u-tokyo.ac.jp/lecture_3872/" },
+            { "id": "1-3", "title": "データマイニング", "url": "https://ocw.u-tokyo.ac.jp/lecture_3873/" },
+            { "id": "1-4", "title": "データサイエンス", "url": "https://ocw.u-tokyo.ac.jp/lecture_3874/" },
+            { "id": "1-5", "title": "データソース", "url": "https://ocw.u-tokyo.ac.jp/lecture_3875/" }
+          ]
+        },
+        {
+          "chapter": 2,
+          "title": "Python基礎 (1)",
+          "lectures": [
+            { "id": "2-1", "title": "Pythonの基礎(1)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3880/" },
+            { "id": "2-2", "title": "Pythonの基礎(2)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3881/" },
+            { "id": "2-3", "title": "Pythonの基礎(3)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3882/" },
+            { "id": "2-4", "title": "Pythonの基礎(4)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3883/" },
+            { "id": "2-5", "title": "Pythonの基礎(5)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3884/" },
+            { "id": "2-6", "title": "Pythonの基礎(6)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3885/" },
+            { "id": "2-7", "title": "Pythonの基礎(7)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3886/" },
+            { "id": "2-8", "title": "Pythonの基礎(8)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3887/" },
+            { "id": "2-9", "title": "課題", "url": "https://ocw.u-tokyo.ac.jp/lecture_3888/" }
+          ]
+        },
+        {
+          "chapter": 3,
+          "title": "Python基礎 (2)",
+          "lectures": [
+            { "id": "3-1", "title": "今回の流れ / デバッギング", "url": "https://ocw.u-tokyo.ac.jp/lecture_3892/" },
+            { "id": "3-2", "title": "データ", "url": "https://ocw.u-tokyo.ac.jp/lecture_3893/" },
+            { "id": "3-3", "title": "記述統計", "url": "https://ocw.u-tokyo.ac.jp/lecture_3894/" },
+            { "id": "3-4", "title": "標本と母集団", "url": "https://ocw.u-tokyo.ac.jp/lecture_3895/" },
+            { "id": "3-5", "title": "データの分布と可視化", "url": "https://ocw.u-tokyo.ac.jp/lecture_3896/" },
+            { "id": "3-6", "title": "Pandas(1)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3897/" },
+            { "id": "3-7", "title": "Pandas(2)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3898/" },
+            { "id": "3-8", "title": "Pandas(3)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3899/" },
+            { "id": "3-9", "title": "Pandas(4)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3900/" },
+            { "id": "3-10", "title": "課題(1)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3901/" },
+            { "id": "3-11", "title": "課題(2)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3902/" }
+          ]
+        },
+        {
+          "chapter": 4,
+          "title": "データの記述統計・前処理",
+          "lectures": [
+            { "id": "4-1", "title": "データの記述統計", "url": "https://ocw.u-tokyo.ac.jp/lecture_3909/" },
+            { "id": "4-2", "title": "統計的推測", "url": "https://ocw.u-tokyo.ac.jp/lecture_3910/" },
+            { "id": "4-3", "title": "データの相関", "url": "https://ocw.u-tokyo.ac.jp/lecture_3911/" },
+            { "id": "4-4", "title": "データマイニングのプロセス:データの前処理(1)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3912/" },
+            { "id": "4-5", "title": "データマイニングのプロセス:データの前処理(2)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3913/" },
+            { "id": "4-6", "title": "課題(1)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3914/" },
+            { "id": "4-7", "title": "NumPy(1)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3915/" },
+            { "id": "4-8", "title": "NumPy(2)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3916/" },
+            { "id": "4-9", "title": "NumPy(3)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3917/" },
+            { "id": "4-10", "title": "matplotlib", "url": "https://ocw.u-tokyo.ac.jp/lecture_3918/" },
+            { "id": "4-11", "title": "課題(2)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3919/" },
+            { "id": "4-12", "title": "課題(3)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3920/" }
+          ]
+        },
+        {
+          "chapter": 5,
+          "title": "テキスト分析の基礎",
+          "lectures": [
+            { "id": "5-1", "title": "テキスト分析の基礎", "url": "https://ocw.u-tokyo.ac.jp/lecture_3929/" },
+            { "id": "5-2", "title": "コーパス", "url": "https://ocw.u-tokyo.ac.jp/lecture_3930/" },
+            { "id": "5-3", "title": "テキスト分析", "url": "https://ocw.u-tokyo.ac.jp/lecture_3931/" },
+            { "id": "5-4", "title": "ベクトル空間モデル", "url": "https://ocw.u-tokyo.ac.jp/lecture_3932/" },
+            { "id": "5-5", "title": "cos類似度", "url": "https://ocw.u-tokyo.ac.jp/lecture_3933/" },
+            { "id": "5-6", "title": "単語共起", "url": "https://ocw.u-tokyo.ac.jp/lecture_3934/" },
+            { "id": "5-7", "title": "テキスト分析と学習タスク", "url": "https://ocw.u-tokyo.ac.jp/lecture_3935/" },
+            { "id": "5-8", "title": "Pythonと文字列", "url": "https://ocw.u-tokyo.ac.jp/lecture_3936/" },
+            { "id": "5-9", "title": "課題(1)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3937/" },
+            { "id": "5-10", "title": "課題(2)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3938/" }
+          ]
+        },
+        {
+          "chapter": 6,
+          "title": "ネットワーク分析の基礎",
+          "lectures": [
+            { "id": "6-1", "title": "ネットワーク分析の基礎", "url": "https://ocw.u-tokyo.ac.jp/lecture_3943/" },
+            { "id": "6-2", "title": "パス／経路", "url": "https://ocw.u-tokyo.ac.jp/lecture_3944/" },
+            { "id": "6-3", "title": "中心性(1)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3945/" },
+            { "id": "6-4", "title": "中心性(2)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3946/" },
+            { "id": "6-5", "title": "ネットワークの特徴", "url": "https://ocw.u-tokyo.ac.jp/lecture_3947/" },
+            { "id": "6-6", "title": "コミュニティ抽出(1)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3948/" },
+            { "id": "6-7", "title": "コミュニティ抽出(2)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3949/" },
+            { "id": "6-8", "title": "NetworkX", "url": "https://ocw.u-tokyo.ac.jp/lecture_3950/" },
+            { "id": "6-9", "title": "課題(1)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3951/" },
+            { "id": "6-10", "title": "課題(2)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3952/" }
+          ]
+        },
+        {
+          "chapter": 7,
+          "title": "クラスタリング",
+          "lectures": [
+            { "id": "7-1", "title": "クラスタリング", "url": "https://ocw.u-tokyo.ac.jp/lecture_3956/" },
+            { "id": "7-2", "title": "凝縮型階層的クラスタリング", "url": "https://ocw.u-tokyo.ac.jp/lecture_3957/" },
+            { "id": "7-3", "title": "K-MEANS法", "url": "https://ocw.u-tokyo.ac.jp/lecture_3958/" },
+            { "id": "7-4", "title": "K-MEANS++／クラスタ数の決定", "url": "https://ocw.u-tokyo.ac.jp/lecture_3959/" },
+            { "id": "7-5", "title": "課題", "url": "https://ocw.u-tokyo.ac.jp/lecture_3960/" },
+            { "id": "7-6", "title": "課題", "url": "https://ocw.u-tokyo.ac.jp/lecture_3961/" },
+            { "id": "7-7", "title": "課題", "url": "https://ocw.u-tokyo.ac.jp/lecture_3962/" },
+            { "id": "7-8", "title": "課題", "url": "https://ocw.u-tokyo.ac.jp/lecture_3963/" }
+          ]
+        },
+        {
+          "chapter": 8,
+          "title": "主成分分析",
+          "lectures": [
+            { "id": "8-1", "title": "主成分分析：概要", "url": "https://ocw.u-tokyo.ac.jp/lecture_3968/" },
+            { "id": "8-2", "title": "主成分分析：数式的解説", "url": "https://ocw.u-tokyo.ac.jp/lecture_3969/" },
+            { "id": "8-3", "title": "主成分分析：正規直交基底", "url": "https://ocw.u-tokyo.ac.jp/lecture_3970/" },
+            { "id": "8-4", "title": "主成分分析の手順", "url": "https://ocw.u-tokyo.ac.jp/lecture_3971/" },
+            { "id": "8-5", "title": "課題(1)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3972/" },
+            { "id": "8-6", "title": "課題(2)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3973/" }
+          ]
+        },
+        {
+          "chapter": 9,
+          "title": "教師あり学習(1)：線形回帰",
+          "lectures": [
+            { "id": "9-1", "title": "教師あり学習", "url": "https://ocw.u-tokyo.ac.jp/lecture_3976/" },
+            { "id": "9-2", "title": "線形回帰：概要、コスト関数", "url": "https://ocw.u-tokyo.ac.jp/lecture_3977/" },
+            { "id": "9-3", "title": "線形回帰：最急降下法(1)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3978/" },
+            { "id": "9-4", "title": "線形回帰：最急降下法(2)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3979/" },
+            { "id": "9-5", "title": "学習モデルの評価", "url": "https://ocw.u-tokyo.ac.jp/lecture_3980/" },
+            { "id": "9-6", "title": "正規方程式", "url": "https://ocw.u-tokyo.ac.jp/lecture_3981/" },
+            { "id": "9-7", "title": "最尤推定", "url": "https://ocw.u-tokyo.ac.jp/lecture_3982/" },
+            { "id": "9-8", "title": "課題(1)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3983/" },
+            { "id": "9-9", "title": "課題(2)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3984/" },
+            { "id": "9-10", "title": "課題(3)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3985/" }
+          ]
+        },
+        {
+          "chapter": 10,
+          "title": "教師あり学習(2)：ロジスティック回帰、過学習と正則化",
+          "lectures": [
+            { "id": "10-1", "title": "過学習", "url": "https://ocw.u-tokyo.ac.jp/lecture_3989/" },
+            { "id": "10-2", "title": "正則化", "url": "https://ocw.u-tokyo.ac.jp/lecture_3990/" },
+            { "id": "10-3", "title": "正則化の解釈", "url": "https://ocw.u-tokyo.ac.jp/lecture_3991/" },
+            { "id": "10-4", "title": "ロジスティック回帰：シグモイド関数", "url": "https://ocw.u-tokyo.ac.jp/lecture_3992/" },
+            { "id": "10-5", "title": "ロジスティック回帰：コスト関数", "url": "https://ocw.u-tokyo.ac.jp/lecture_3993/" },
+            { "id": "10-6", "title": "ロジスティック回帰：多変数の入力", "url": "https://ocw.u-tokyo.ac.jp/lecture_3994/" },
+            { "id": "10-7", "title": "ロジスティック回帰の過学習、精度検証", "url": "https://ocw.u-tokyo.ac.jp/lecture_3995/" },
+            { "id": "10-8", "title": "課題(1)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3996/" },
+            { "id": "10-9", "title": "課題(2)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3997/" },
+            { "id": "10-10", "title": "scikit-learnでのロジスティック回帰", "url": "https://ocw.u-tokyo.ac.jp/lecture_3998/" }
+          ]
+        },
+        {
+          "chapter": 11,
+          "title": "機械学習の実践",
+          "lectures": [
+            { "id": "11-1", "title": "特徴量選択", "url": "https://ocw.u-tokyo.ac.jp/lecture_4001/" },
+            { "id": "11-2", "title": "BIASとVARIANCE", "url": "https://ocw.u-tokyo.ac.jp/lecture_4002/" },
+            { "id": "11-3", "title": "学習モデルの調整", "url": "https://ocw.u-tokyo.ac.jp/lecture_4003/" },
+            { "id": "11-4", "title": "機械学習の実践：データの観察", "url": "https://ocw.u-tokyo.ac.jp/lecture_4004/" },
+            { "id": "11-5", "title": "機械学習の実践：モデルの学習", "url": "https://ocw.u-tokyo.ac.jp/lecture_4005/" },
+            { "id": "11-6", "title": "機械学習の実践：モデル選択と評価", "url": "https://ocw.u-tokyo.ac.jp/lecture_4006/" },
+            { "id": "11-7", "title": "機械学習の実践：グリッドサーチ", "url": "https://ocw.u-tokyo.ac.jp/lecture_4007/" },
+            { "id": "11-8", "title": "機械学習の実践：cross_val_score", "url": "https://ocw.u-tokyo.ac.jp/lecture_4008/" },
+            { "id": "11-9", "title": "機械学習の実践：概観", "url": "https://ocw.u-tokyo.ac.jp/lecture_4009/" },
+            { "id": "11-10", "title": "課題", "url": "https://ocw.u-tokyo.ac.jp/lecture_4010/" }
+          ]
+        },
+        {
+          "chapter": 12,
+          "title": "全体のまとめ",
+          "lectures": [
+            { "id": "12-1", "title": "データ分析のフレームワーク", "url": "https://ocw.u-tokyo.ac.jp/lecture_4015/" },
+            { "id": "12-2", "title": "全体のまとめ(1)：概観", "url": "https://ocw.u-tokyo.ac.jp/lecture_4016/" },
+            { "id": "12-3", "title": "全体のまとめ(2)：データ分析", "url": "https://ocw.u-tokyo.ac.jp/lecture_4017/" },
+            { "id": "12-4", "title": "全体のまとめ(3)：機械学習", "url": "https://ocw.u-tokyo.ac.jp/lecture_4018/" },
+            { "id": "12-5", "title": "数学について", "url": "https://ocw.u-tokyo.ac.jp/lecture_4019/" },
+            { "id": "12-6", "title": "参考書・ウェブサイト紹介", "url": "https://ocw.u-tokyo.ac.jp/lecture_4020/" }
+          ]
+        }
+      ]
+    },
+    {
+      "course": "統計データ解析 II",
+      "course_url": "https://ocw.u-tokyo.ac.jp/course_11481/",
+      "phase": 3,
+      "instructor": "小池 祐太",
+      "total_lectures": 154,
+      "chapters": [
+        {
+          "chapter": 1,
+          "title": "統計ソフトウェアR の基本的使用法 1",
+          "lectures": [
+            { "id": "1-1", "title": "講義の概要", "url": "https://ocw.u-tokyo.ac.jp/lecture_3582/" },
+            { "id": "1-2", "title": "多変量解析とは", "url": "https://ocw.u-tokyo.ac.jp/lecture_3583/" },
+            { "id": "1-3", "title": "回帰分析", "url": "https://ocw.u-tokyo.ac.jp/lecture_3584/" },
+            { "id": "1-4", "title": "主成分分析", "url": "https://ocw.u-tokyo.ac.jp/lecture_3585/" },
+            { "id": "1-5", "title": "判別分析", "url": "https://ocw.u-tokyo.ac.jp/lecture_3586/" },
+            { "id": "1-6", "title": "R言語とは", "url": "https://ocw.u-tokyo.ac.jp/lecture_3587/" },
+            { "id": "1-7", "title": "起動と終了", "url": "https://ocw.u-tokyo.ac.jp/lecture_3588/" },
+            { "id": "1-8", "title": "エディタ", "url": "https://ocw.u-tokyo.ac.jp/lecture_3589/" },
+            { "id": "1-9", "title": "作業ディレクトリ", "url": "https://ocw.u-tokyo.ac.jp/lecture_3590/" },
+            { "id": "1-10", "title": "式の入力", "url": "https://ocw.u-tokyo.ac.jp/lecture_3591/" },
+            { "id": "1-11", "title": "関数の実行", "url": "https://ocw.u-tokyo.ac.jp/lecture_3592/" },
+            { "id": "1-12", "title": "ヘルプ機能", "url": "https://ocw.u-tokyo.ac.jp/lecture_3593/" },
+            { "id": "1-13", "title": "数の扱い", "url": "https://ocw.u-tokyo.ac.jp/lecture_3594/" }
+          ]
+        },
+        {
+          "chapter": 2,
+          "title": "統計ソフトウェアR の基本的使用法 2",
+          "lectures": [
+            { "id": "2-1", "title": "数の扱い", "url": "https://ocw.u-tokyo.ac.jp/lecture_3597/" },
+            { "id": "2-2", "title": "変数への代入", "url": "https://ocw.u-tokyo.ac.jp/lecture_3598/" },
+            { "id": "2-3", "title": "パッケージのインストール", "url": "https://ocw.u-tokyo.ac.jp/lecture_3599/" },
+            { "id": "2-4", "title": "データ構造: ベクトル", "url": "https://ocw.u-tokyo.ac.jp/lecture_3600/" },
+            { "id": "2-5", "title": "データ構造: ベクトル (実行例)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3601/" },
+            { "id": "2-6", "title": "データ構造: 行列", "url": "https://ocw.u-tokyo.ac.jp/lecture_3602/" },
+            { "id": "2-7", "title": "データ構造: リスト", "url": "https://ocw.u-tokyo.ac.jp/lecture_3603/" },
+            { "id": "2-8", "title": "データ構造: データフレーム", "url": "https://ocw.u-tokyo.ac.jp/lecture_3604/" },
+            { "id": "2-9", "title": "ベクトルの計算", "url": "https://ocw.u-tokyo.ac.jp/lecture_3605/" },
+            { "id": "2-10", "title": "行列とその演算", "url": "https://ocw.u-tokyo.ac.jp/lecture_3606/" }
+          ]
+        },
+        {
+          "chapter": 3,
+          "title": "行列とその演算",
+          "lectures": [
+            { "id": "3-1", "title": "行列とその演算: 積、初等関数の適用", "url": "https://ocw.u-tokyo.ac.jp/lecture_3609/" },
+            { "id": "3-2", "title": "行列とその演算: 行列式とトレース", "url": "https://ocw.u-tokyo.ac.jp/lecture_3610/" },
+            { "id": "3-3", "title": "行列とその演算: 逆行列", "url": "https://ocw.u-tokyo.ac.jp/lecture_3611/" },
+            { "id": "3-4", "title": "行列とその演算: 一般化逆行列", "url": "https://ocw.u-tokyo.ac.jp/lecture_3612/" },
+            { "id": "3-5", "title": "行列とその演算: 積、連立方程式", "url": "https://ocw.u-tokyo.ac.jp/lecture_3613/" },
+            { "id": "3-6", "title": "固有値と固有ベクトル", "url": "https://ocw.u-tokyo.ac.jp/lecture_3614/" },
+            { "id": "3-7", "title": "関数定義", "url": "https://ocw.u-tokyo.ac.jp/lecture_3615/" },
+            { "id": "3-8", "title": "制御文 1", "url": "https://ocw.u-tokyo.ac.jp/lecture_3616/" },
+            { "id": "3-9", "title": "制御文 2", "url": "https://ocw.u-tokyo.ac.jp/lecture_3617/" },
+            { "id": "3-10", "title": "データの抽出", "url": "https://ocw.u-tokyo.ac.jp/lecture_3618/" }
+          ]
+        },
+        {
+          "chapter": 4,
+          "title": "データの抽出",
+          "lectures": [
+            { "id": "4-1", "title": "データの抽出（つづき）", "url": "https://ocw.u-tokyo.ac.jp/lecture_3621/" },
+            { "id": "4-2", "title": "ファイルを用いたデータの読み書き: 概要", "url": "https://ocw.u-tokyo.ac.jp/lecture_3622/" },
+            { "id": "4-3", "title": "作業ディレクトリの確認と変更", "url": "https://ocw.u-tokyo.ac.jp/lecture_3623/" },
+            { "id": "4-4", "title": "ファイルを用いたデータの読み書き: 書き出し", "url": "https://ocw.u-tokyo.ac.jp/lecture_3624/" },
+            { "id": "4-5", "title": "ファイルを用いたデータの読み書き: 読み込み", "url": "https://ocw.u-tokyo.ac.jp/lecture_3625/" },
+            { "id": "4-6", "title": "記述統計量によるデータの要約: 概要", "url": "https://ocw.u-tokyo.ac.jp/lecture_3626/" },
+            { "id": "4-7", "title": "記述統計量によるデータの要約: 平均、分散、標準偏差", "url": "https://ocw.u-tokyo.ac.jp/lecture_3627/" },
+            { "id": "4-8", "title": "記述統計量によるデータの要約: 順序統計量", "url": "https://ocw.u-tokyo.ac.jp/lecture_3628/" },
+            { "id": "4-9", "title": "記述統計量によるデータの要約: apply()関数", "url": "https://ocw.u-tokyo.ac.jp/lecture_3629/" },
+            { "id": "4-10", "title": "記述統計量によるデータの要約: 相関係数", "url": "https://ocw.u-tokyo.ac.jp/lecture_3630/" },
+            { "id": "4-11", "title": "可視化", "url": "https://ocw.u-tokyo.ac.jp/lecture_3631/" },
+            { "id": "4-12", "title": "可視化: 散布図", "url": "https://ocw.u-tokyo.ac.jp/lecture_3632/" },
+            { "id": "4-13", "title": "可視化: 凡例", "url": "https://ocw.u-tokyo.ac.jp/lecture_3633/" }
+          ]
+        },
+        {
+          "chapter": 5,
+          "title": "データの可視化",
+          "lectures": [
+            { "id": "5-1", "title": "可視化: 基本的な描画", "url": "https://ocw.u-tokyo.ac.jp/lecture_3635/" },
+            { "id": "5-2", "title": "可視化: ヒストグラム", "url": "https://ocw.u-tokyo.ac.jp/lecture_3636/" },
+            { "id": "5-3", "title": "可視化: 箱ひげ図", "url": "https://ocw.u-tokyo.ac.jp/lecture_3637/" },
+            { "id": "5-4", "title": "可視化: 相関行列", "url": "https://ocw.u-tokyo.ac.jp/lecture_3638/" },
+            { "id": "5-5", "title": "可視化: その他の描画関数", "url": "https://ocw.u-tokyo.ac.jp/lecture_3639/" },
+            { "id": "5-6", "title": "乱数", "url": "https://ocw.u-tokyo.ac.jp/lecture_3640/" },
+            { "id": "5-7", "title": "確率変数と確率分布", "url": "https://ocw.u-tokyo.ac.jp/lecture_3641/" },
+            { "id": "5-8", "title": "離散分布", "url": "https://ocw.u-tokyo.ac.jp/lecture_3642/" },
+            { "id": "5-9", "title": "離散分布: 二項分布", "url": "https://ocw.u-tokyo.ac.jp/lecture_3643/" },
+            { "id": "5-10", "title": "離散分布: Poisson 分布", "url": "https://ocw.u-tokyo.ac.jp/lecture_3644/" },
+            { "id": "5-11", "title": "連続分布", "url": "https://ocw.u-tokyo.ac.jp/lecture_3645/" }
+          ]
+        },
+        {
+          "chapter": 6,
+          "title": "連続分布",
+          "lectures": [
+            { "id": "6-1", "title": "確率変数と確率分布: 復習", "url": "https://ocw.u-tokyo.ac.jp/lecture_3648/" },
+            { "id": "6-2", "title": "連続分布", "url": "https://ocw.u-tokyo.ac.jp/lecture_3649/" },
+            { "id": "6-3", "title": "連続分布: 正規分布", "url": "https://ocw.u-tokyo.ac.jp/lecture_3650/" },
+            { "id": "6-4", "title": "連続分布: 正規分布の性質", "url": "https://ocw.u-tokyo.ac.jp/lecture_3651/" },
+            { "id": "6-5", "title": "連続分布: 一様分布", "url": "https://ocw.u-tokyo.ac.jp/lecture_3652/" },
+            { "id": "6-6", "title": "連続分布: ガンマ分布", "url": "https://ocw.u-tokyo.ac.jp/lecture_3653/" },
+            { "id": "6-7", "title": "連続分布: 指数分布", "url": "https://ocw.u-tokyo.ac.jp/lecture_3654/" },
+            { "id": "6-8", "title": "連続分布: χ2 分布", "url": "https://ocw.u-tokyo.ac.jp/lecture_3655/" },
+            { "id": "6-9", "title": "連続分布: t分布", "url": "https://ocw.u-tokyo.ac.jp/lecture_3656/" },
+            { "id": "6-10", "title": "連続分布: F分布", "url": "https://ocw.u-tokyo.ac.jp/lecture_3657/" },
+            { "id": "6-11", "title": "多次元確率変数と多変量分布: 多項分布", "url": "https://ocw.u-tokyo.ac.jp/lecture_3658/" },
+            { "id": "6-12", "title": "多変量の乱数", "url": "https://ocw.u-tokyo.ac.jp/lecture_3659/" }
+          ]
+        },
+        {
+          "chapter": 7,
+          "title": "多次元確率変数と多変量分布",
+          "lectures": [
+            { "id": "7-1", "title": "多次元確率変数と多変量分布: 復習", "url": "https://ocw.u-tokyo.ac.jp/lecture_3661/" },
+            { "id": "7-2", "title": "多変量正規分布 (1)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3662/" },
+            { "id": "7-3", "title": "多変量正規分布 (2)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3663/" },
+            { "id": "7-4", "title": "多変量正規分布: 実行例 (1)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3664/" },
+            { "id": "7-5", "title": "多変量正規分布: 実行例 (2)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3665/" },
+            { "id": "7-6", "title": "多変量正規分布: 実行例 (3)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3666/" },
+            { "id": "7-7", "title": "重回帰分析: 目的", "url": "https://ocw.u-tokyo.ac.jp/lecture_3667/" },
+            { "id": "7-8", "title": "重回帰分析: 回帰係数の推定、Rでの実行", "url": "https://ocw.u-tokyo.ac.jp/lecture_3668/" },
+            { "id": "7-9", "title": "重回帰分析: Rでの実行: 実行例", "url": "https://ocw.u-tokyo.ac.jp/lecture_3669/" },
+            { "id": "7-10", "title": "重回帰分析: 最小二乗法、線形回帰式の行列による表現", "url": "https://ocw.u-tokyo.ac.jp/lecture_3670/" },
+            { "id": "7-11", "title": "重回帰分析: 最小二乗法、正規方程式", "url": "https://ocw.u-tokyo.ac.jp/lecture_3671/" },
+            { "id": "7-12", "title": "重回帰分析: 最小二乗法: 実行例", "url": "https://ocw.u-tokyo.ac.jp/lecture_3672/" }
+          ]
+        },
+        {
+          "chapter": 8,
+          "title": "重回帰分析・最小二乗法",
+          "lectures": [
+            { "id": "8-1", "title": "重回帰分析: 復習", "url": "https://ocw.u-tokyo.ac.jp/lecture_3675/" },
+            { "id": "8-2", "title": "最小二乗法による線形回帰式の推定の幾何学的解釈", "url": "https://ocw.u-tokyo.ac.jp/lecture_3676/" },
+            { "id": "8-3", "title": "最小二乗法による線形回帰式の推定の幾何学的解釈: 実行例", "url": "https://ocw.u-tokyo.ac.jp/lecture_3677/" },
+            { "id": "8-4", "title": "線形回帰式と標本平均", "url": "https://ocw.u-tokyo.ac.jp/lecture_3678/" },
+            { "id": "8-5", "title": "線形回帰式と標本平均: データセットでの実行例", "url": "https://ocw.u-tokyo.ac.jp/lecture_3679/" },
+            { "id": "8-6", "title": "分析の評価: 残差", "url": "https://ocw.u-tokyo.ac.jp/lecture_3680/" },
+            { "id": "8-7", "title": "分析の評価: 標準誤差 (1)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3681/" },
+            { "id": "8-8", "title": "分析の評価: 標準誤差 (2)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3682/" },
+            { "id": "8-9", "title": "分析の評価: 標準誤差: 実行例", "url": "https://ocw.u-tokyo.ac.jp/lecture_3683/" },
+            { "id": "8-10", "title": "分析の評価: t値とp値 (1)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3684/" },
+            { "id": "8-11", "title": "分析の評価: t値とp値 (2)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3685/" },
+            { "id": "8-12", "title": "分析の評価: t値とp値: 実行例", "url": "https://ocw.u-tokyo.ac.jp/lecture_3686/" }
+          ]
+        },
+        {
+          "chapter": 9,
+          "title": "分析の評価",
+          "lectures": [
+            { "id": "9-1", "title": "重回帰分析: 復習", "url": "https://ocw.u-tokyo.ac.jp/lecture_3688/" },
+            { "id": "9-2", "title": "分析の評価: 決定係数 (1)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3689/" },
+            { "id": "9-3", "title": "分析の評価: 決定係数 (2)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3690/" },
+            { "id": "9-4", "title": "分析の評価: 決定係数: 実行例", "url": "https://ocw.u-tokyo.ac.jp/lecture_3691/" },
+            { "id": "9-5", "title": "分析の評価: F値", "url": "https://ocw.u-tokyo.ac.jp/lecture_3692/" },
+            { "id": "9-6", "title": "予測: 実行例 (1)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3693/" },
+            { "id": "9-7", "title": "予測: 実行例 (2)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3694/" },
+            { "id": "9-8", "title": "発展的なモデル: 変数が多い場合のモデルの記述法", "url": "https://ocw.u-tokyo.ac.jp/lecture_3695/" },
+            { "id": "9-9", "title": "発展的なモデル: 質的データの利用", "url": "https://ocw.u-tokyo.ac.jp/lecture_3696/" },
+            { "id": "9-10", "title": "発展的なモデル: 質的データの利用: 実行例 (1)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3697/" },
+            { "id": "9-11", "title": "発展的なモデル: 質的データの利用: 実行例 (2)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3698/" },
+            { "id": "9-12", "title": "発展的なモデル: 質的データの利用: 実行例 (3)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3699/" },
+            { "id": "9-13", "title": "発展的なモデル: 交互作用・変数の非線型変換", "url": "https://ocw.u-tokyo.ac.jp/lecture_3700/" }
+          ]
+        },
+        {
+          "chapter": 10,
+          "title": "主成分分析",
+          "lectures": [
+            { "id": "10-1", "title": "重回帰分析: 交互作用モデル・変数の非線形変換 (1)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3702/" },
+            { "id": "10-2", "title": "重回帰分析: 交互作用モデル・変数の非線形変換 (2)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3703/" },
+            { "id": "10-3", "title": "重回帰分析: 交互作用モデル・変数の非線形変換 (3)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3704/" },
+            { "id": "10-4", "title": "主成分分析: 目的", "url": "https://ocw.u-tokyo.ac.jp/lecture_3705/" },
+            { "id": "10-5", "title": "主成分分析: Rでの実行 (1)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3706/" },
+            { "id": "10-6", "title": "主成分分析: Rでの実行 (2)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3707/" },
+            { "id": "10-7", "title": "主成分分析: 計算法 (1)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3708/" },
+            { "id": "10-8", "title": "主成分分析: 計算法 (2)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3709/" },
+            { "id": "10-9", "title": "主成分分析: 計算法 (3)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3710/" },
+            { "id": "10-10", "title": "主成分分析: 計算法 (4)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3711/" },
+            { "id": "10-11", "title": "主成分分析: 計算法 (5)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3712/" },
+            { "id": "10-12", "title": "主成分分析: 分析の評価: 寄与率", "url": "https://ocw.u-tokyo.ac.jp/lecture_3713/" },
+            { "id": "10-13", "title": "主成分分析: 分析の評価: バイプロット", "url": "https://ocw.u-tokyo.ac.jp/lecture_3714/" }
+          ]
+        },
+        {
+          "chapter": 11,
+          "title": "判別分析",
+          "lectures": [
+            { "id": "11-1", "title": "判別分析: 目的 (1)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3717/" },
+            { "id": "11-2", "title": "判別分析: 目的 (2)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3718/" },
+            { "id": "11-3", "title": "ベイズの公式 (1)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3719/" },
+            { "id": "11-4", "title": "ベイズの公式 (2)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3720/" },
+            { "id": "11-5", "title": "線形判別分析 (1)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3721/" },
+            { "id": "11-6", "title": "線形判別分析 (2)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3722/" },
+            { "id": "11-7", "title": "線形判別分析: 実行例 (1)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3723/" },
+            { "id": "11-8", "title": "線形判別分析: 実行例 (2)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3724/" },
+            { "id": "11-9", "title": "線形判別分析: 実行例 (3)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3725/" },
+            { "id": "11-10", "title": "線形判別分析: 実行例 (4)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3726/" },
+            { "id": "11-11", "title": "線形判別分析: 実行例 (5)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3727/" },
+            { "id": "11-12", "title": "2次判別分析", "url": "https://ocw.u-tokyo.ac.jp/lecture_3728/" },
+            { "id": "11-13", "title": "2次判別分析: 実行例", "url": "https://ocw.u-tokyo.ac.jp/lecture_3729/" }
+          ]
+        },
+        {
+          "chapter": 12,
+          "title": "時系列解析の概要",
+          "lectures": [
+            { "id": "12-1", "title": "時系列解析の概要", "url": "https://ocw.u-tokyo.ac.jp/lecture_3732/" },
+            { "id": "12-2", "title": "代表的な時系列モデル (1)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3733/" },
+            { "id": "12-3", "title": "代表的な時系列モデル (2)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3734/" },
+            { "id": "12-4", "title": "代表的な時系列モデル (3)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3735/" },
+            { "id": "12-5", "title": "代表的な時系列モデル (4)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3736/" },
+            { "id": "12-6", "title": "代表的な時系列モデル (5)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3737/" },
+            { "id": "12-7", "title": "(弱) 定常性", "url": "https://ocw.u-tokyo.ac.jp/lecture_3738/" },
+            { "id": "12-8", "title": "自己共分散・自己相関 (1)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3739/" },
+            { "id": "12-9", "title": "自己共分散・自己相関 (2)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3740/" },
+            { "id": "12-10", "title": "自己共分散・自己相関 (3)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3741/" }
+          ]
+        },
+        {
+          "chapter": 13,
+          "title": "時系列解析・クラスター分析",
+          "lectures": [
+            { "id": "13-1", "title": "時系列解析: 復習 (1)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3744/" },
+            { "id": "13-2", "title": "時系列解析: 復習 (2)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3745/" },
+            { "id": "13-3", "title": "ARモデルの当てはめ (1)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3746/" },
+            { "id": "13-4", "title": "ARモデルの当てはめ (2)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3747/" },
+            { "id": "13-5", "title": "ARMAモデルの当てはめ (1)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3748/" },
+            { "id": "13-6", "title": "ARMAモデルの当てはめ (2)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3749/" },
+            { "id": "13-7", "title": "ARMAモデルの当てはめ (3)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3750/" },
+            { "id": "13-8", "title": "予測", "url": "https://ocw.u-tokyo.ac.jp/lecture_3751/" },
+            { "id": "13-9", "title": "クラスター分析: 目的", "url": "https://ocw.u-tokyo.ac.jp/lecture_3752/" },
+            { "id": "13-10", "title": "クラスター分析: k-平均法", "url": "https://ocw.u-tokyo.ac.jp/lecture_3753/" },
+            { "id": "13-11", "title": "クラスター分析: k-平均法: 実行例 (1)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3754/" },
+            { "id": "13-12", "title": "クラスター分析: k-平均法: 実行例 (2)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3755/" }
+          ]
+        }
+      ]
+    },
+    {
+      "course": "データ駆動科学の数理（数理手法Ⅷ）",
+      "course_url": "https://ocw.u-tokyo.ac.jp/course_11478/",
+      "phase": 3,
+      "instructor": "島田 尚",
+      "total_lectures": 73,
+      "chapters": [
+        {
+          "chapter": 1,
+          "title": "はじめに：データ解析と数理・物理手法",
+          "lectures": [
+            { "id": "1-1", "title": "イントロダクション", "url": "https://ocw.u-tokyo.ac.jp/lecture_3219/" },
+            { "id": "1-2", "title": "重要性評価の数理", "url": "https://ocw.u-tokyo.ac.jp/lecture_3220/" },
+            { "id": "1-3", "title": "統計解析とデータの縮約", "url": "https://ocw.u-tokyo.ac.jp/lecture_3221/" },
+            { "id": "1-4", "title": "社会・経済系での普遍分布・ベキ分布", "url": "https://ocw.u-tokyo.ac.jp/lecture_3222/" },
+            { "id": "1-5", "title": "「複雑ネットワーク科学」関連の話題", "url": "https://ocw.u-tokyo.ac.jp/lecture_3223/" },
+            { "id": "1-6", "title": "隣接行列", "url": "https://ocw.u-tokyo.ac.jp/lecture_3224/" },
+            { "id": "1-7", "title": "グーグル行列による重要性指標の更新", "url": "https://ocw.u-tokyo.ac.jp/lecture_3225/" },
+            { "id": "1-8", "title": "グーグル行列の性質", "url": "https://ocw.u-tokyo.ac.jp/lecture_3226/" },
+            { "id": "1-9", "title": "固有値、固有ベクトル、対角化の復習", "url": "https://ocw.u-tokyo.ac.jp/lecture_3227/" }
+          ]
+        },
+        {
+          "chapter": 2,
+          "title": "固有値、ペロン・フロベニウスの定理（１）",
+          "lectures": [
+            { "id": "2-1", "title": "グーグル行列の復習", "url": "https://ocw.u-tokyo.ac.jp/lecture_3229/" },
+            { "id": "2-2", "title": "行列の固有値・固有ベクトルの振り返り", "url": "https://ocw.u-tokyo.ac.jp/lecture_3230/" },
+            { "id": "2-3", "title": "ペロン・フロベニウスの定理", "url": "https://ocw.u-tokyo.ac.jp/lecture_3231/" },
+            { "id": "2-4", "title": "グーグル行列とペロン・フロベニウスの定理の関連", "url": "https://ocw.u-tokyo.ac.jp/lecture_3232/" },
+            { "id": "2-5", "title": "ペロン・フロベニウスの定理の証明（準備）", "url": "https://ocw.u-tokyo.ac.jp/lecture_3233/" },
+            { "id": "2-6", "title": "ペロン・フロベニウスの定理の証明（本体①）", "url": "https://ocw.u-tokyo.ac.jp/lecture_3234/" },
+            { "id": "2-7", "title": "ペロン・フロベニウスの定理の証明（本体②）", "url": "https://ocw.u-tokyo.ac.jp/lecture_3235/" }
+          ]
+        },
+        {
+          "chapter": 3,
+          "title": "ペロン・フロベニウスの定理（２）、Power Method",
+          "lectures": [
+            { "id": "3-1", "title": "ペロン・フロベニウスの定理の復習", "url": "https://ocw.u-tokyo.ac.jp/lecture_3236/" },
+            { "id": "3-2", "title": "ペロンフロベニウスの定理とグーグル行列の関係の整理", "url": "https://ocw.u-tokyo.ac.jp/lecture_3237/" },
+            { "id": "3-3", "title": "ペロン・フロベニウスの定理とネットワークグラフの性質の関連", "url": "https://ocw.u-tokyo.ac.jp/lecture_3238/" },
+            { "id": "3-4", "title": "ペロンフロベニウスの定理（固有値の縮退について）", "url": "https://ocw.u-tokyo.ac.jp/lecture_3239/" },
+            { "id": "3-5", "title": "フロベニウス根に対する固有ベクトルの構成", "url": "https://ocw.u-tokyo.ac.jp/lecture_3240/" },
+            { "id": "3-6", "title": "Power Method（べき乗法）", "url": "https://ocw.u-tokyo.ac.jp/lecture_3241/" },
+            { "id": "3-7", "title": "マルコフ過程", "url": "https://ocw.u-tokyo.ac.jp/lecture_3242/" }
+          ]
+        },
+        {
+          "chapter": 4,
+          "title": "行列の対角化、特異値分解",
+          "lectures": [
+            { "id": "4-1", "title": "行列の対角化、固有値の縮退がない場合", "url": "https://ocw.u-tokyo.ac.jp/lecture_3243/" },
+            { "id": "4-2", "title": "対角化の実用", "url": "https://ocw.u-tokyo.ac.jp/lecture_3244/" },
+            { "id": "4-3", "title": "固有値の縮退がある場合", "url": "https://ocw.u-tokyo.ac.jp/lecture_3245/" },
+            { "id": "4-4", "title": "ある固有値がS重縮退している場合", "url": "https://ocw.u-tokyo.ac.jp/lecture_3246/" },
+            { "id": "4-5", "title": "Aがエルミート行列の場合", "url": "https://ocw.u-tokyo.ac.jp/lecture_3247/" },
+            { "id": "4-6", "title": "特異値分解", "url": "https://ocw.u-tokyo.ac.jp/lecture_3248/" }
+          ]
+        },
+        {
+          "chapter": 5,
+          "title": "画像の特異値分解、擬似逆行列、最小二乗法",
+          "lectures": [
+            { "id": "5-1", "title": "画像（ピクセル値）の特異値分解", "url": "https://ocw.u-tokyo.ac.jp/lecture_3249/" },
+            { "id": "5-2", "title": "擬似逆行列", "url": "https://ocw.u-tokyo.ac.jp/lecture_3250/" },
+            { "id": "5-3", "title": "最小二乗法", "url": "https://ocw.u-tokyo.ac.jp/lecture_3251/" }
+          ]
+        },
+        {
+          "chapter": 6,
+          "title": "最小二乗問題と最尤法",
+          "lectures": [
+            { "id": "6-1", "title": "画像（ピクセル値）の特異値分解の復習", "url": "https://ocw.u-tokyo.ac.jp/lecture_3253/" },
+            { "id": "6-2", "title": "内容の補足", "url": "https://ocw.u-tokyo.ac.jp/lecture_3254/" },
+            { "id": "6-3", "title": "最小二乗問題と正規方程式", "url": "https://ocw.u-tokyo.ac.jp/lecture_3255/" },
+            { "id": "6-4", "title": "最小二乗問題と正規方程式(2)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3256/" },
+            { "id": "6-5", "title": "最小二乗問題と正規方程式(3)", "url": "https://ocw.u-tokyo.ac.jp/lecture_3257/" },
+            { "id": "6-6", "title": "尤度と最尤法", "url": "https://ocw.u-tokyo.ac.jp/lecture_3258/" }
+          ]
+        },
+        {
+          "chapter": 7,
+          "title": "スパースモデリングと主成分分析",
+          "lectures": [
+            { "id": "7-1", "title": "尤度と最尤法　復習", "url": "https://ocw.u-tokyo.ac.jp/lecture_3260/" },
+            { "id": "7-2", "title": "Lagrangeの未定乗数法", "url": "https://ocw.u-tokyo.ac.jp/lecture_3261/" },
+            { "id": "7-3", "title": "Lagrangeの未定乗数法２：スパースモデリング", "url": "https://ocw.u-tokyo.ac.jp/lecture_3262/" },
+            { "id": "7-4", "title": "主成分分析", "url": "https://ocw.u-tokyo.ac.jp/lecture_3263/" },
+            { "id": "7-5", "title": "主成分分析の応用", "url": "https://ocw.u-tokyo.ac.jp/lecture_3264/" }
+          ]
+        },
+        {
+          "chapter": 8,
+          "title": "分布関数",
+          "lectures": [
+            { "id": "8-1", "title": "分布関数　レビュー", "url": "https://ocw.u-tokyo.ac.jp/lecture_3266/" },
+            { "id": "8-2", "title": "離散分布", "url": "https://ocw.u-tokyo.ac.jp/lecture_3267/" },
+            { "id": "8-3", "title": "ランクサイズプロット", "url": "https://ocw.u-tokyo.ac.jp/lecture_3268/" },
+            { "id": "8-4", "title": "両対数プロット", "url": "https://ocw.u-tokyo.ac.jp/lecture_3269/" },
+            { "id": "8-5", "title": "連続分布", "url": "https://ocw.u-tokyo.ac.jp/lecture_3270/" },
+            { "id": "8-6", "title": "特性関数", "url": "https://ocw.u-tokyo.ac.jp/lecture_3271/" }
+          ]
+        },
+        {
+          "chapter": 9,
+          "title": "大数の法則",
+          "lectures": [
+            { "id": "9-1", "title": "頻度分布", "url": "https://ocw.u-tokyo.ac.jp/lecture_3273/" },
+            { "id": "9-2", "title": "逆関数法", "url": "https://ocw.u-tokyo.ac.jp/lecture_3274/" },
+            { "id": "9-3", "title": "チェビシェフの不等式", "url": "https://ocw.u-tokyo.ac.jp/lecture_3275/" },
+            { "id": "9-4", "title": "サンプル平均の平均と分散", "url": "https://ocw.u-tokyo.ac.jp/lecture_3276/" },
+            { "id": "9-5", "title": "大数の法則", "url": "https://ocw.u-tokyo.ac.jp/lecture_3277/" }
+          ]
+        },
+        {
+          "chapter": 10,
+          "title": "中心極限定理",
+          "lectures": [
+            { "id": "10-1", "title": "復習", "url": "https://ocw.u-tokyo.ac.jp/lecture_3279/" },
+            { "id": "10-2", "title": "中心極限定理1", "url": "https://ocw.u-tokyo.ac.jp/lecture_3280/" },
+            { "id": "10-3", "title": "中心極限定理2", "url": "https://ocw.u-tokyo.ac.jp/lecture_3281/" },
+            { "id": "10-4", "title": "中心極限定理3　重畳定理", "url": "https://ocw.u-tokyo.ac.jp/lecture_3282/" },
+            { "id": "10-5", "title": "大数の法則の振り返り", "url": "https://ocw.u-tokyo.ac.jp/lecture_3283/" },
+            { "id": "10-6", "title": "中心極限定理4", "url": "https://ocw.u-tokyo.ac.jp/lecture_3284/" },
+            { "id": "10-7", "title": "Cauchy分布", "url": "https://ocw.u-tokyo.ac.jp/lecture_3285/" }
+          ]
+        },
+        {
+          "chapter": 11,
+          "title": "乗算過程と成長過程",
+          "lectures": [
+            { "id": "11-1", "title": "復習", "url": "https://ocw.u-tokyo.ac.jp/lecture_3287/" },
+            { "id": "11-2", "title": "乗算過程", "url": "https://ocw.u-tokyo.ac.jp/lecture_3288/" },
+            { "id": "11-3", "title": "乗算過程2", "url": "https://ocw.u-tokyo.ac.jp/lecture_3289/" },
+            { "id": "11-4", "title": "乗算過程3", "url": "https://ocw.u-tokyo.ac.jp/lecture_3290/" },
+            { "id": "11-5", "title": "成長過程", "url": "https://ocw.u-tokyo.ac.jp/lecture_3291/" }
+          ]
+        },
+        {
+          "chapter": 12,
+          "title": "複雑ネットワーク",
+          "lectures": [
+            { "id": "12-1", "title": "複雑ネットワーク", "url": "https://ocw.u-tokyo.ac.jp/lecture_3293/" },
+            { "id": "12-2", "title": "Small World、ネットワークの特徴", "url": "https://ocw.u-tokyo.ac.jp/lecture_3294/" },
+            { "id": "12-3", "title": "ネットワークの特性量1", "url": "https://ocw.u-tokyo.ac.jp/lecture_3295/" },
+            { "id": "12-4", "title": "ネットワークの特性量2", "url": "https://ocw.u-tokyo.ac.jp/lecture_3296/" },
+            { "id": "12-5", "title": "ネットワークの特性量3", "url": "https://ocw.u-tokyo.ac.jp/lecture_3297/" },
+            { "id": "12-6", "title": "ネットワークの特性量4", "url": "https://ocw.u-tokyo.ac.jp/lecture_3298/" },
+            { "id": "12-7", "title": "ネットワークの特性量5", "url": "https://ocw.u-tokyo.ac.jp/lecture_3299/" }
+          ]
+        }
+      ]
+    }
+  ]
+}
