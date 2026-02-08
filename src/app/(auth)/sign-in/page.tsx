@@ -1,8 +1,20 @@
 "use client";
 
 import { signIn } from "@/lib/auth-client";
+import { useState } from "react";
 
 export default function SignInPage() {
+  const [loading, setLoading] = useState(false);
+
+  const handleGoogleSignIn = async () => {
+    setLoading(true);
+    await signIn.social({
+      provider: "google",
+      callbackURL: "/dashboard",
+      errorCallbackURL: "/sign-in",
+    });
+  };
+
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 dark:bg-zinc-950">
       <div className="w-full max-w-md space-y-6 p-8">
@@ -13,10 +25,9 @@ export default function SignInPage() {
           </p>
         </div>
         <button
-          onClick={() =>
-            signIn.social({ provider: "google", callbackURL: "/dashboard" })
-          }
-          className="w-full rounded-lg border border-zinc-300 bg-white px-4 py-3 text-sm font-medium text-zinc-700 hover:bg-zinc-50 flex items-center justify-center gap-3 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-200 dark:hover:bg-zinc-700"
+          onClick={handleGoogleSignIn}
+          disabled={loading}
+          className="w-full rounded-lg border border-zinc-300 bg-white px-4 py-3 text-sm font-medium text-zinc-700 hover:bg-zinc-50 flex items-center justify-center gap-3 cursor-pointer disabled:opacity-50 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-200 dark:hover:bg-zinc-700"
         >
           <svg className="h-5 w-5" viewBox="0 0 24 24">
             <path
@@ -36,7 +47,7 @@ export default function SignInPage() {
               fill="#EA4335"
             />
           </svg>
-          Googleでログイン
+          {loading ? "リダイレクト中..." : "Googleでログイン"}
         </button>
       </div>
     </div>
