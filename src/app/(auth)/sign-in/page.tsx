@@ -8,11 +8,16 @@ export default function SignInPage() {
 
   const handleGoogleSignIn = async () => {
     setLoading(true);
-    await signIn.social({
+    const res = await signIn.social({
       provider: "google",
       callbackURL: "/dashboard",
       errorCallbackURL: "/sign-in",
     });
+    if (res.data?.url) {
+      window.location.href = res.data.url;
+    } else {
+      setLoading(false);
+    }
   };
 
   return (
