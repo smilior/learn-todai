@@ -56,16 +56,32 @@ export const verification = sqliteTable("verification", {
 });
 
 // アプリ固有テーブル
+export const courses = sqliteTable("courses", {
+  id: text("id").primaryKey(), // "course-1" 形式
+  title: text("title").notNull(),
+  courseUrl: text("course_url").notNull(),
+  phase: integer("phase").notNull(),
+  instructor: text("instructor"),
+  order: integer("order").notNull(),
+});
+
 export const chapters = sqliteTable("chapters", {
-  id: integer("id").primaryKey(),
+  id: text("id").primaryKey(), // "course-1_ch-1" 形式
+  courseId: text("course_id")
+    .notNull()
+    .references(() => courses.id),
+  number: integer("number").notNull(),
   title: text("title").notNull(),
 });
 
 export const lectures = sqliteTable("lectures", {
-  id: text("id").primaryKey(),
-  chapterId: integer("chapter_id")
+  id: text("id").primaryKey(), // "course-1_1-1" 形式
+  chapterId: text("chapter_id")
     .notNull()
     .references(() => chapters.id),
+  courseId: text("course_id")
+    .notNull()
+    .references(() => courses.id),
   title: text("title").notNull(),
   url: text("url").notNull(),
   order: integer("order").notNull(),
